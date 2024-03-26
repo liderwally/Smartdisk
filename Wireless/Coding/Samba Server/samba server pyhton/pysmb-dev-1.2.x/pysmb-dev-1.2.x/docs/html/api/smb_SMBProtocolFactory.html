@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>SMBProtocolFactory Class &#8212; pysmb 1.2.9 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinxdoc.css" />
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="SharedDevice Class" href="smb_SharedDevice.html" />
+    <link rel="prev" title="SMbHandler Class" href="smb_SMBHandler.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="smb_SharedDevice.html" title="SharedDevice Class"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="smb_SMBHandler.html" title="SMbHandler Class"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">pysmb 1.2.9 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">SMBProtocolFactory Class</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="smbprotocolfactory-class">
+<h1>SMBProtocolFactory Class<a class="headerlink" href="#smbprotocolfactory-class" title="Permalink to this heading">¶</a></h1>
+<p>For those who want to utilize pysmb in Twisted framework, pysmb has a <em>smb.SMBProtocol.SMBProtocol</em> implementation.
+In most cases, you do not need to touch or import the <em>SMBProtocol</em> directly. All the SMB functionalities are exposed in the <em>SMBProtocolFactory</em>.</p>
+<dl class="simple">
+<dt>In your project,</dt><dd><ol class="arabic simple">
+<li><p>Create a new class and subclass <em>SMBProtocolFactory</em>.</p></li>
+<li><p>Override the <em>SMBProtocolFactory.onAuthOK</em> and <em>SMBProtocolFactory.onAuthFailed</em> instance methods to provide your own post-authenthentication handling.
+Once <em>SMBProtocolFactory.onAuthOK</em> has been called by pymsb internals, your application is ready to communicate with the remote SMB/CIFS service through
+the <em>SMBProtocolFactory</em> public methods such as <em>SMBProtocolFactory.storeFile</em>, <em>SMBProtocolFactory.retrieveFile</em>, etc.</p></li>
+<li><p>When you want to disconnect from the remote SMB/CIFS server, just call <em>SMBProtocolFactory.closeConnection</em> method.</p></li>
+</ol>
+</dd>
+</dl>
+<p>All the <em>SMBProtocolFactory</em> public methods that provide file functionlities will return a <em>twisted.internet.defer.Deferred</em> instance.
+A <a class="reference internal" href="smb_exceptions.html"><span class="doc">NotReadyError</span></a> exception is raised when the underlying SMB is not authenticated.
+If the underlying SMB connection has been terminated, a <a class="reference internal" href="smb_exceptions.html"><span class="doc">NotConnectedError</span></a> exception is raised.</p>
+<p>All the file operation methods in <em>SMBProtocolFactory</em> class accept a <em>timeout</em> parameter. This parameter specifies the time limit where pysmb will wait for the
+entire file operation (except <em>storeFile</em> and <em>retrieveFile</em> methods) to complete. If the file operation fails to complete within the timeout period, the returned
+<em>Deferred</em> instance’s <em>errback</em> method will be called with a <em>SMBTimeout</em> exception.</p>
+<p>If you are interested in learning the results of the operation or to know when the operation has completed, you should
+add a handling method to the returned <em>Deferred</em> instance via <em>Deferred.addCallback</em>. If the file operation fails, the <em>Deferred.errback</em> function will be called
+with an <a class="reference internal" href="smb_exceptions.html"><span class="doc">OperationFailure</span></a>; on timeout, it will be called with a <a class="reference internal" href="smb_exceptions.html"><span class="doc">SMBTimeout</span></a>.</p>
+<section id="example">
+<h2>Example<a class="headerlink" href="#example" title="Permalink to this heading">¶</a></h2>
+<p>The following illustrates a simple file retrieving implementation.:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">tempfile</span>
+<span class="kn">from</span> <span class="nn">twisted.internet</span> <span class="kn">import</span> <span class="n">reactor</span>
+<span class="kn">from</span> <span class="nn">smb.SMBProtocol</span> <span class="kn">import</span> <span class="n">SMBProtocolFactory</span>
+
+<span class="k">class</span> <span class="nc">RetrieveFileFactory</span><span class="p">(</span><span class="n">SMBProtocolFactory</span><span class="p">):</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="n">SMBProtocolFactory</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">fileRetrieved</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">write_result</span><span class="p">):</span>
+        <span class="n">file_obj</span><span class="p">,</span> <span class="n">file_attributes</span><span class="p">,</span> <span class="n">file_size</span> <span class="o">=</span> <span class="n">write_result</span>
+
+        <span class="c1"># Retrieved file contents are inside file_obj</span>
+        <span class="c1"># Do what you need with the file_obj and then close it</span>
+        <span class="c1"># Note that the file obj is positioned at the end-of-file,</span>
+        <span class="c1"># so you might need to perform a file_obj.seek() to if you</span>
+        <span class="c1"># need to read from the beginning</span>
+        <span class="n">file_obj</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">transport</span><span class="o">.</span><span class="n">loseConnection</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">onAuthOK</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">d</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">retrieveFile</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">service</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">path</span><span class="p">,</span> <span class="n">tempfile</span><span class="o">.</span><span class="n">NamedTemporaryFile</span><span class="p">())</span>
+        <span class="n">d</span><span class="o">.</span><span class="n">addCallback</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">fileRetrieved</span><span class="p">)</span>
+        <span class="n">d</span><span class="o">.</span><span class="n">addErrback</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">d</span><span class="o">.</span><span class="n">errback</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">onAuthFailed</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span> <span class="s1">&#39;Auth failed&#39;</span>
+
+<span class="c1"># There will be some mechanism to capture userID, password, client_machine_name, server_name and server_ip</span>
+<span class="c1"># client_machine_name can be an arbitary ASCII string</span>
+<span class="c1"># server_name should match the remote machine name, or else the connection will be rejected</span>
+<span class="n">factory</span> <span class="o">=</span> <span class="n">RetrieveFileFactory</span><span class="p">(</span><span class="n">userID</span><span class="p">,</span> <span class="n">password</span><span class="p">,</span> <span class="n">client_machine_name</span><span class="p">,</span> <span class="n">server_name</span><span class="p">,</span> <span class="n">use_ntlm_v2</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+<span class="n">factory</span><span class="o">.</span><span class="n">service</span> <span class="o">=</span> <span class="s1">&#39;smbtest&#39;</span>
+<span class="n">factory</span><span class="o">.</span><span class="n">path</span> <span class="o">=</span> <span class="s1">&#39;/rfc1001.txt&#39;</span>
+<span class="n">reactor</span><span class="o">.</span><span class="n">connectTCP</span><span class="p">(</span><span class="n">server_ip</span><span class="p">,</span> <span class="mi">139</span><span class="p">,</span> <span class="n">factory</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="smb2-support">
+<h2>SMB2 Support<a class="headerlink" href="#smb2-support" title="Permalink to this heading">¶</a></h2>
+<p>Starting from pysmb 1.1.0, pysmb will utilize SMB2 protocol for communication if the remote SMB/CIFS service supports SMB2.
+Otherwise, it will fallback automatically back to using SMB1 protocol.</p>
+<p>To disable SMB2 protocol in pysmb, set the <em>SUPPORT_SMB2</em> flag in the <em>smb_structs</em> module to <em>False</em> before creating the <em>SMBProtocolFactory</em> instance.:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">smb</span> <span class="kn">import</span> <span class="n">smb_structs</span>
+<span class="n">smb_structs</span><span class="o">.</span><span class="n">SUPPORT_SMB2</span> <span class="o">=</span> <span class="kc">False</span>
+</pre></div>
+</div>
+</section>
+<section id="caveats">
+<h2>Caveats<a class="headerlink" href="#caveats" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>A new factory instance must be created for each SMB connection to the remote SMB/CIFS service. Avoid reusing the same factory instance for more than one SMB connection.</p></li>
+<li><p>The remote SMB/CIFS server usually imposes a limit of the number of concurrent file operations for each client. For example, to transfer a thousand files, you may need to setup a queue in your application and call <em>storeFile</em> or <em>retrieveFile</em> in batches.</p></li>
+<li><p>The <em>timeout</em> parameter in the file operation methods are not precise; it is accurate to within 1 second interval, i.e. with a timeout of 0.5 sec, pysmb might raise
+<em>SMBTimeout</em> exception after 1.5 sec.</p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="../index.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">SMBProtocolFactory Class</a><ul>
+<li><a class="reference internal" href="#example">Example</a></li>
+<li><a class="reference internal" href="#smb2-support">SMB2 Support</a></li>
+<li><a class="reference internal" href="#caveats">Caveats</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="smb_SMBHandler.html"
+                          title="previous chapter">SMbHandler Class</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="smb_SharedDevice.html"
+                          title="next chapter">SharedDevice Class</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/api/smb_SMBProtocolFactory.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="smb_SharedDevice.html" title="SharedDevice Class"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="smb_SMBHandler.html" title="SMbHandler Class"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">pysmb 1.2.9 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">SMBProtocolFactory Class</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2001-2021, Michael Teo https://miketeo.net/.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 5.0.1.
+    </div>
+  </body>
+</html>

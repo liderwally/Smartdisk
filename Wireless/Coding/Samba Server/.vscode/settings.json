@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "slist.h": "c",
+        "portable-endian.h": "c",
+        "nvs_flash.h": "c",
+        "smb2.h": "c",
+        "libsmb2.h": "c",
+        "libsmb2-raw.h": "c"
+    }
+}

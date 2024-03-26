@@ -1,0 +1,77 @@
+
+PS C:\Users\Hp> get-smbserverconfiguration
+
+
+AnnounceComment                        :
+AnnounceServer                         : False
+AsynchronousCredits                    : 64
+AuditSmb1Access                        : False
+AutoDisconnectTimeout                  : 15
+AutoShareServer                        : True
+AutoShareWorkstation                   : True
+CachedOpenLimit                        : 10
+DisableCompression                     : False
+DisableSmbEncryptionOnSecureConnection : True
+DurableHandleV2TimeoutInSeconds        : 180
+EnableAuthenticateUserSharing          : False
+EnableDirectoryHandleLeasing           : True
+EnableDownlevelTimewarp                : False
+EnableForcedLogoff                     : True
+EnableLeasing                          : True
+EnableMultiChannel                     : True
+EnableOplocks                          : True
+EnableSecuritySignature                : False
+EnableSMB1Protocol                     : False
+EnableSMB2Protocol                     : True
+EnableSMBQUIC                          : True
+EnableStrictNameChecking               : True
+EncryptData                            : False
+EncryptionCiphers                      : AES_128_GCM, AES_128_CCM, AES_256_GCM, AES_256_CCM
+InvalidAuthenticationDelayTimeInMs     : 0
+IrpStackSize                           : 15
+KeepAliveTime                          : 2
+MaxChannelPerSession                   : 32
+MaxMpxCount                            : 50
+MaxSessionPerConnection                : 16384
+MaxThreadsPerQueue                     : 20
+MaxWorkItems                           : 1
+NullSessionPipes                       :
+NullSessionShares                      :
+OplockBreakWait                        : 35
+PendingClientTimeoutInSeconds          : 120
+RejectUnencryptedAccess                : True
+RequestCompression                     : False
+RequireSecuritySignature               : False
+RestrictNamedpipeAccessViaQuic         : True
+ServerHidden                           : True
+Smb2CreditsMax                         : 2048
+Smb2CreditsMin                         : 128
+SmbServerNameHardeningLevel            : 0
+TreatHostAsStableStorage               : False
+ValidateAliasNotCircular               : True
+ValidateShareScope                     : True
+ValidateShareScopeNotAliased           : True
+ValidateTargetName                     : True
+
+
+
+The SMB 2 Protocol is composed of, and driven by, message exchanges between the client and the
+server in the following categories:
+ Protocol negotiation (SMB2 NEGOTIATE)
+ User authentication (SMB2 SESSION_SETUP, SMB2 LOGOFF)
+ Share access (SMB2 TREE_CONNECT, SMB2 TREE_DISCONNECT)
+  File access (SMB2 CREATE, SMB2 CLOSE, SMB2 READ, SMB2 WRITE, SMB2 LOCK, SMB2 IOCTL,
+  SMB2 QUERY_INFO, SMB2 SET_INFO, SMB2 FLUSH, SMB2 CANCEL)
+ Directory access (SMB2 QUERY_DIRECTORY, SMB2 CHANGE_NOTIFY)
+ Volume access (SMB2 QUERY_INFO, SMB2 SET_INFO)
+ Cache coherency (SMB2 OPLOCK_BREAK)
+ Simple messaging (SMB2 ECHO)
+
+The SMB 2.1 dialect in the SMB 2 Protocol enhances the following categories of messages in the SMB 2
+Protocol:
+ Protocol Negotiation (SMB2 NEGOTIATE)
+ Share Access (SMB2 TREE_CONNECT)
+ File Access (SMB2 CREATE, SMB2 WRITE)
+ Cache Coherency (SMB2 OPLOCK_BREAK)
+ Hash Retrieval (SMB2 IOCTL)
+

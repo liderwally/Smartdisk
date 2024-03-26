@@ -1,0 +1,1 @@
+echo y|format I: /FS:FAT32 /V:MY_2093 /X
