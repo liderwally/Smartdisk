@@ -1,0 +1,233 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "TS046695BK100SMT"
+      (family "SWI")
+      (package "SW_TS046695BK100SMT")
+      (description "6_x_6_mm,_9.5_mm_Actuator_Height,_100_gf,_Black,_Surface_Mount,_SPST,_Tactile_Switch")
+      (attribute "PKG_TYPE" "SW_TS046695BK100SMT")
+      (attribute "MF" "CUI_Devices")
+      (attribute "PACKAGE" "None")
+      (attribute "PRICE" "None")
+      (attribute "CHECK_PRICES" "https://www.snapeda.com/parts/TS04-66-95-BK-100-SMT/CUI+Devices/view-part/?ref=eda")
+      (attribute "STANDARD" "Manufacturer_Recommendations")
+      (attribute "PARTREV" "1.0")
+      (attribute "SNAPEDA_LINK" "https://www.snapeda.com/parts/TS04-66-95-BK-100-SMT/CUI+Devices/view-part/?ref=snap")
+      (attribute "MP" "TS04-66-95-BK-100-SMT")
+      (attribute "CUI_PURCHASE_URL" "https://www.cuidevices.com/product/switches/tactile-switches/ts04-66-95-bk-100-smt?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM")
+      (attribute "AVAILABILITY" "In_Stock")
+      (attribute "MANUFACTURER" "CUI_Devices")
+      (gate
+        (swap 1)
+        (symbol "TS046695BK100SMT")
+        (pin "1" 1 (type PS))
+        (pin "2" 2 (type PS))
+        (pin "3" 3 (type PS))
+        (pin "4" 4 (type PS))
+      )
+    )
+    (symbol "TS046695BK100SMT"
+      (units THOU)
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 200.0) (pt 0.0 100.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 -100.0) (pt 0.0 -200.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -300.0 300.0) (pt -300.0 200.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -300.0 200.0) (pt -300.0 -200.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -300.0 -200.0) (pt -300.0 -300.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -300.0 -300.0) (pt 300.0 -300.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 300.0 -300.0) (pt 300.0 -200.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 300.0 -200.0) (pt 300.0 200.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 300.0 200.0) (pt 300.0 300.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 300.0 300.0) (pt -300.0 300.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 200.0) (pt -300.0 200.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 200.0) (pt 300.0 200.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 -200.0) (pt -300.0 -200.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 -200.0) (pt 300.0 -200.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (fill NONE)
+        (circle (pt -25 -75) (pt 25 -75))
+      )
+      (graphic
+        (stroke 10.0)
+        (fill NONE)
+        (circle (pt -25 75) (pt 25 75))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 25.0 -87.5) (pt 100.0 50.0))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -500.0 200.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -500.0 -200.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 500.0 200.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 500.0 -200.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+    )
+    (symbol "PIN_R0_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 200.0 0.0))
+      )
+    )
+    (symbol "PIN_R180_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -200.0 0.0))
+      )
+    )
+    (package "SW_TS046695BK100SMT"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (path (pt -118.11 118.11) (pt -118.11 -118.11))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -118.11 -118.11) (pt 118.11 -118.11))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 118.11 -118.11) (pt 118.11 118.11))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 118.11 118.11) (pt -118.11 118.11))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -250 88.58) (pt -242.13 88.58))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 5.0)
+          (path (pt -118.11 118.11) (pt -118.11 -118.11))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -118.11 -118.11) (pt 118.11 -118.11))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 118.11 -118.11) (pt 118.11 118.11))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 118.11 118.11) (pt -118.11 118.11))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -250 88.58) (pt -242.13 88.58))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -230.31 127.95) (pt -230.31 -127.95))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -230.31 -127.95) (pt 230.31 -127.95))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 230.31 -127.95) (pt 230.31 127.95))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 230.31 127.95) (pt -230.31 127.95))
+        )
+      )
+      (leg 1 (pt -179.13 88.58) (padstack 1))
+      (leg 2 (pt -179.13 -88.58) (padstack 2))
+      (leg 3 (pt 179.13 88.58) (padstack 3))
+      (leg 4 (pt 179.13 -88.58) (padstack 4))
+      (padstack 1
+        (pad (layer TCOP) (rectf 55.12 82.68 0 0.0 0))
+        (pad (layer TRES) (rectf 55.12 82.68 0 0.0 0))
+        (pad (layer TPST) (rectf 55.12 82.68 0 0.0 0))
+      )
+      (padstack 2
+        (pad (layer TCOP) (rectf 55.12 82.68 0 0.0 0))
+        (pad (layer TRES) (rectf 55.12 82.68 0 0.0 0))
+        (pad (layer TPST) (rectf 55.12 82.68 0 0.0 0))
+      )
+      (padstack 3
+        (pad (layer TCOP) (rectf 55.12 82.68 0 0.0 0))
+        (pad (layer TRES) (rectf 55.12 82.68 0 0.0 0))
+        (pad (layer TPST) (rectf 55.12 82.68 0 0.0 0))
+      )
+      (padstack 4
+        (pad (layer TCOP) (rectf 55.12 82.68 0 0.0 0))
+        (pad (layer TRES) (rectf 55.12 82.68 0 0.0 0))
+        (pad (layer TPST) (rectf 55.12 82.68 0 0.0 0))
+      )
+      (model TS04-66-95-BK-100-SMT.step
+        (euler 0 0 0)
+        (offset 0 0 0)
+      )
+    )
+  )
+)

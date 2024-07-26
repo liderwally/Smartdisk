@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<WORKSPACE>
+ <FRAME activewindow="2">
+  <PLACEMENT>2c0000000200000003000000ffffffffffffffffffffffffffffffffb00000000c000000d1060000fd030000</PLACEMENT>
+  <WINDOW type="default" module="ISIS">
+   <editor metric="0" gridmajor="25400000" mode="00000000" zoom="0" scale="59" flipped="0" gridminor="508000" gridmode="0" snapidx="1" snap="127000" xcursor="0" orgmode="0" snaprange="215254">
+    <world y1="-19050000" x1="-26670000" y2="19050000" x2="26670000"/>
+    <centre x="0" y="0"/>
+    <origin x="0" y="0"/>
+   </editor>
+  </WINDOW>
+  <WINDOW type="default" module="ARES">
+   <editor metric="1" gridmajor="10000000" mode="00000000" zoom="-1" scale="136" flipped="0" gridminor="400000" gridmode="16" snapidx="0" snap="10000" xcursor="0" orgmode="0" snaprange="93382">
+    <world y1="-12700000" x1="-15240000" y2="12700000" x2="15240000"/>
+    <centre x="-3855000" y="-845797"/>
+    <origin x="0" y="0"/>
+   </editor>
+  </WINDOW>
+  <WINDOW type="VIEW3D" module="VIEW3D">
+   <camera>
+    <position x="-4198062" y="313719" z="6506871"/>
+    <focus x="-4400698" y="1388053" z="413633"/>
+    <up x="4890" y="984826" z="173477"/>
+   </camera>
+  </WINDOW>
+ </FRAME>
+ <MODULE name="ARES">
+  <editor metric="1" gridmajor="10000000" mode="00000000" zoom="-1" scale="136" flipped="0" gridminor="400000" gridmode="16" snapidx="0" snap="10000" xcursor="0" orgmode="0" snaprange="93382">
+   <world y1="-12700000" x1="-15240000" y2="12700000" x2="15240000"/>
+   <centre x="-3855000" y="-845797"/>
+   <origin x="0" y="0"/>
+  </editor>
+ </MODULE>
+ <MODULE name="ISIS">
+  <editor metric="0" gridmajor="25400000" mode="00000000" zoom="0" scale="59" flipped="0" gridminor="508000" gridmode="0" snapidx="1" snap="127000" xcursor="0" orgmode="0" snaprange="215254">
+   <world y1="-19050000" x1="-26670000" y2="19050000" x2="26670000"/>
+   <centre x="0" y="0"/>
+   <origin x="0" y="0"/>
+  </editor>
+ </MODULE>
+ <MODULE name="VSMDEBUG">
+  <PWI/>
+ </MODULE>
+</WORKSPACE>

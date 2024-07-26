@@ -1,0 +1,56 @@
+html{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* For Desktop View */
+@media screen and (max-width: 1024px) and (min-device-width: 768px) {
+    body {
+        width: 1000px;
+        height: fit-content;
+    }
+    .comptext{
+        display: block;
+    }
+}
+ 
+/* For Tablet View */
+@media screen and (max-device-width: 768px) and (min-device-width: 640px) {
+    body {
+        width: 720px;
+        height: fit-content;
+    }
+    .comptext{
+        display: none;
+    }
+}
+ 
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 640px) and (min-device-width: 480px) {
+    body {
+        max-width: 600px;
+        width: 90vw;
+        background-color: black;
+        height: fit-content;;
+        overflow-y: scroll;
+    }
+    .comptext{
+        display: none;
+    }
+}
+ 
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 360px) and (min-device-width: 480px)  
+    and (orientation: landscape) {
+    body {
+        width: 90vw;
+        height: fit-content;
+        overflow-y: scroll;
+    }
+    .comptext{
+        display: none;
+    }
+}
+

@@ -1,0 +1,8 @@
+References
+Wikipedia contributors, "Flash memory," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Flash_memory&oldid=996658711 (accessed December 31, 2020).
+Novotný R, Kadlec J, Kuchta R (2015) NAND Flash Memory Organization and Operations. J Inform Tech Softw Eng 5: 139. doi:10.4172/2165-7866.1000139.
+Mohan V, Gurumurthi S, Stan M (2010) FlashPower: A detailed power model for NAND flash memory. 502-507. 10.1109/DATE.2010.5457154.
+One Transistor: Attempts at reading parallel NAND Flash with Arduino (previous post 1)
+One Transistor: Read NAND Flash device signature with Arduino (previous post 2)
+James Tate (2017). Arduino based NAND chip reader on HWREBLOG (February 28, 2017).
+Arduino Mega: Direct R/W of a Nand Flash memory chip on Reverse Engineering (hardcoreforensics.com, January 2, 2012)

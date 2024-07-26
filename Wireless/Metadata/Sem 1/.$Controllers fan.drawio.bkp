@@ -1,0 +1,85 @@
+<mxfile host="Electron" modified="2024-01-15T22:38:44.175Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="zGFjKV3tfgI2Y6-6VJQS" version="22.0.3" type="device">
+  <diagram name="Page-1" id="fvz3L3mJLBFA9CxsGmCE">
+    <mxGraphModel dx="1816" dy="1268" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="REiYRNgLzfkyfnXzynqa-8" style="edgeStyle=none;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=8;endSize=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="REiYRNgLzfkyfnXzynqa-1" target="REiYRNgLzfkyfnXzynqa-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REiYRNgLzfkyfnXzynqa-1" value="&lt;font face=&quot;Times New Roman&quot;&gt;Controller&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;shadow=1;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-118" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="REiYRNgLzfkyfnXzynqa-13" style="edgeStyle=none;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=8;endSize=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="REiYRNgLzfkyfnXzynqa-2" target="REiYRNgLzfkyfnXzynqa-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REiYRNgLzfkyfnXzynqa-2" value="&lt;font face=&quot;Times New Roman&quot;&gt;Controller with SoC&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="1" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="REiYRNgLzfkyfnXzynqa-10" style="edgeStyle=none;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=8;endSize=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="REiYRNgLzfkyfnXzynqa-3" target="REiYRNgLzfkyfnXzynqa-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REiYRNgLzfkyfnXzynqa-11" style="edgeStyle=none;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=8;endSize=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="REiYRNgLzfkyfnXzynqa-3" target="REiYRNgLzfkyfnXzynqa-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REiYRNgLzfkyfnXzynqa-3" value="&lt;font face=&quot;Times New Roman&quot;&gt;Controller with Peripherals&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-2" width="183" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="REiYRNgLzfkyfnXzynqa-4" value="&lt;font face=&quot;Times New Roman&quot;&gt;ESP82&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-285" y="181" width="148" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="REiYRNgLzfkyfnXzynqa-5" value="&lt;font face=&quot;Times New Roman&quot;&gt;ESP 32&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-112" y="178.5" width="139" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="REiYRNgLzfkyfnXzynqa-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="REiYRNgLzfkyfnXzynqa-6" target="REiYRNgLzfkyfnXzynqa-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REiYRNgLzfkyfnXzynqa-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="REiYRNgLzfkyfnXzynqa-6" target="REiYRNgLzfkyfnXzynqa-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REiYRNgLzfkyfnXzynqa-19" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="REiYRNgLzfkyfnXzynqa-6" target="REiYRNgLzfkyfnXzynqa-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REiYRNgLzfkyfnXzynqa-6" value="&lt;font face=&quot;Times New Roman&quot;&gt;Controllers&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="113" y="144.5" width="156" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="REiYRNgLzfkyfnXzynqa-23" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="REiYRNgLzfkyfnXzynqa-7" target="REiYRNgLzfkyfnXzynqa-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REiYRNgLzfkyfnXzynqa-24" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="REiYRNgLzfkyfnXzynqa-7" target="REiYRNgLzfkyfnXzynqa-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REiYRNgLzfkyfnXzynqa-7" value="&lt;font face=&quot;Times New Roman&quot;&gt;Peripherals&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="308" y="145" width="150" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="REiYRNgLzfkyfnXzynqa-9" style="edgeStyle=none;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.733;entryY=0.113;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=8;endSize=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="REiYRNgLzfkyfnXzynqa-1" target="REiYRNgLzfkyfnXzynqa-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REiYRNgLzfkyfnXzynqa-12" style="edgeStyle=none;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.682;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=8;endSize=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="REiYRNgLzfkyfnXzynqa-2" target="REiYRNgLzfkyfnXzynqa-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REiYRNgLzfkyfnXzynqa-14" value="SAMD series" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-62" y="339" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="REiYRNgLzfkyfnXzynqa-15" value="ESP32" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="50" y="422" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="REiYRNgLzfkyfnXzynqa-16" value="Stm32 Series" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="190" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="REiYRNgLzfkyfnXzynqa-20" value="Wi-Fi&lt;br&gt;Module" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="304" y="347" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="REiYRNgLzfkyfnXzynqa-21" value="Bluetooth&amp;nbsp;&lt;br&gt;Module" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="445" y="323" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="REiYRNgLzfkyfnXzynqa-22" value="Usb interface&lt;br&gt;module" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="565" y="249" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="REiYRNgLzfkyfnXzynqa-25" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.342;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="REiYRNgLzfkyfnXzynqa-7" target="REiYRNgLzfkyfnXzynqa-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

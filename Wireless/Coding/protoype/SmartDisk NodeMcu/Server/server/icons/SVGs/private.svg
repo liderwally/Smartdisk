@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="50px" height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
+<rect fill="none" width="50" height="50"/>
+<g>
+	<path fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M25,2C12.297,2,2,12.297,2,25c0,12.703,10.297,23,23,23c12.703,0,23-10.297,23-23C48,12.297,37.703,2,25,2L25,2z"/>
+</g>
+<circle cx="33" cy="22" r="3"/>
+<circle cx="17" cy="22" r="3"/>
+<polyline fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+	32.221,34.277 37.174,35.934 35.59,40.676 25.713,37.375 "/>
+<polyline fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+	18.012,34.802 12.826,33.068 14.411,28.326 23.936,31.508 "/>
+<rect x="12.999" y="32.001" transform="matrix(-0.8948 0.4465 -0.4465 -0.8948 62.7759 54.2079)" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="24.002" height="4.999"/>
+</svg>

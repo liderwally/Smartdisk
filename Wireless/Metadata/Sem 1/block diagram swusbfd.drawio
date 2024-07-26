@@ -1,0 +1,86 @@
+<mxfile host="Electron" modified="2023-12-15T08:28:25.571Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="N6uSHN8VoKqWcRm7gPUF" version="22.0.3" type="device">
+  <diagram name="Page-1" id="uPwiSRpvTJDzY4dNgjRU">
+    <mxGraphModel dx="1656" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ohx6EGdItDv_XbKdblvg-2" value="Controller&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310.5" y="440" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohx6EGdItDv_XbKdblvg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ohx6EGdItDv_XbKdblvg-4" target="Ohx6EGdItDv_XbKdblvg-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohx6EGdItDv_XbKdblvg-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ohx6EGdItDv_XbKdblvg-4" target="Ohx6EGdItDv_XbKdblvg-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohx6EGdItDv_XbKdblvg-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ohx6EGdItDv_XbKdblvg-4" target="Ohx6EGdItDv_XbKdblvg-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohx6EGdItDv_XbKdblvg-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Ohx6EGdItDv_XbKdblvg-4" target="Ohx6EGdItDv_XbKdblvg-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohx6EGdItDv_XbKdblvg-4" value="Power Controller&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="335.5" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohx6EGdItDv_XbKdblvg-5" value="Nand Memory" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="335.5" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohx6EGdItDv_XbKdblvg-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ohx6EGdItDv_XbKdblvg-6" target="Ohx6EGdItDv_XbKdblvg-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohx6EGdItDv_XbKdblvg-6" value="USB Physical Connector" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohx6EGdItDv_XbKdblvg-7" value="Radio Module&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="141" y="295" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohx6EGdItDv_XbKdblvg-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ohx6EGdItDv_XbKdblvg-8" target="Ohx6EGdItDv_XbKdblvg-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohx6EGdItDv_XbKdblvg-8" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.radio.aerial_-_antenna_2;" parent="1" vertex="1">
+          <mxGeometry x="161.5" y="120" width="79" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohx6EGdItDv_XbKdblvg-23" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startWidth=39;startSize=9.43801652892562;endWidth=39;endSize=9;width=28.429752066115704;" parent="1" source="Ohx6EGdItDv_XbKdblvg-5" target="Ohx6EGdItDv_XbKdblvg-2" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="540" y="650" as="sourcePoint" />
+            <mxPoint x="640" y="550" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ohx6EGdItDv_XbKdblvg-30" value="Radio Antenna" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="195.5" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohx6EGdItDv_XbKdblvg-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Ohx6EGdItDv_XbKdblvg-7" target="Ohx6EGdItDv_XbKdblvg-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohx6EGdItDv_XbKdblvg-33" value="The base design of the wireless USB flash drive system" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="255.5" y="730" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohx6EGdItDv_XbKdblvg-38" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Ohx6EGdItDv_XbKdblvg-2" target="Ohx6EGdItDv_XbKdblvg-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="510" as="sourcePoint" />
+            <mxPoint x="230" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ohx6EGdItDv_XbKdblvg-39" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Ohx6EGdItDv_XbKdblvg-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="490" as="sourcePoint" />
+            <mxPoint x="600" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ohx6EGdItDv_XbKdblvg-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ohx6EGdItDv_XbKdblvg-42" target="Ohx6EGdItDv_XbKdblvg-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohx6EGdItDv_XbKdblvg-42" value="Battery" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="335.5" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

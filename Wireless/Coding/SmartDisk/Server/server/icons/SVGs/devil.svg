@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="50px" height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
+<path fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M38.824,6.531c0,0,2.035-1.676,3.902-5.531C43.52,2.07,44,4.079,44,6.032c0,2.619-0.771,4.738-0.771,4.738"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M31,32l2,6c0,0,2.111-2.836,3-7"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M19,32l-2,6c0,0-2.111-2.836-3-7"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M11.176,6.531c0,0-2.036-1.676-3.903-5.531C6.48,2.07,6,4.079,6,6.032C6,8.65,6.771,10.77,6.771,10.77"/>
+<rect fill="none" width="50" height="50"/>
+<g>
+	<path fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M25,2C12.297,2,2,12.297,2,25c0,12.703,10.297,23,23,23c12.703,0,23-10.297,23-23C48,12.297,37.703,2,25,2L25,2z"/>
+</g>
+<ellipse transform="matrix(0.7072 0.7071 -0.7071 0.7072 25.9259 -16.5972)" cx="33" cy="23" rx="2.5" ry="4"/>
+<ellipse transform="matrix(-0.7072 0.7071 -0.7071 -0.7072 45.2844 27.2444)" cx="17" cy="23" rx="2.5" ry="4"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M28.001,20c0,0,3.209-6,10.999-6"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M21.999,20c0,0-3.209-6-11-6"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M14,31c0,0,6,1,11,1s11-1,11-1"/>
+</svg>

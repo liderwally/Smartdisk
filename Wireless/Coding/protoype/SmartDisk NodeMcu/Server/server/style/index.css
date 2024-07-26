@@ -1,0 +1,261 @@
+
+
+
+#top_cont {
+    height: fit-content;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    
+    
+
+}
+#mid_cont {
+    height: 65vh;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    
+
+}
+
+#midrightcont {
+    height: 60vh;
+    width: 98%;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow: auto;
+
+}
+
+#bottom_cont {
+    height: 5vh;
+    display: flex;
+    width: 96%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    overflow-y: auto;
+    border: 2px solid black;
+
+}
+
+.dirctfolder {
+    height:50px;
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--secColor);
+
+}
+
+.userbutton{
+    width: fit-content;
+    /* padding-left: 10px; */
+
+}
+
+.scndbar_component {
+    height: 50px;
+    width: 10%;
+    padding: 10px;
+    margin: 10px;
+    transition: 05.s;
+    border-radius: 15px;
+    align-items: center;
+    display: inline-flex;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    
+}
+
+
+.scndbar_component:hover {
+    background-color: rgba(var(--tab-rev-color-red),var(--tab-rev-color-green),var(--tab-rev-color-blue),var(--tab-opacity));
+    color: black;
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+#dirBar{
+    border: none;
+    background-color: rgba(var(--tab-rev-color-red),var(--tab-rev-color-green),var(--tab-rev-color-blue),var(--tab-opacity));
+    color: black;
+    width: 53%;
+}
+#searchBar{
+    border: none;
+    background-color: rgba(var(--tab-rev-color-red),var(--tab-rev-color-green),var(--tab-rev-color-blue),var(--tab-opacity));
+    color: black;
+}
+#maintab{
+    min-width: 50px;
+    height: 60px;
+}
+.file,
+.folders {
+    height: fit-content;
+    max-height: 150px;
+    width: 100px;
+    position: relative;
+    margin: 10px;
+    text-align: center;
+    word-wrap: break-word;
+    left: 0px;
+    border-radius: 10px;
+    color: rgb(var(--tab-color-red),var(--tab-color-green),var(--tab-color-blue));
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.scndbar_component img {
+    height: 35px;
+    width: 35px;
+    position: relative;
+    color: aliceblue;
+}
+
+.scndbar_component~.comptext {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    color: aliceblue;
+
+}
+
+.folders:hover {
+    box-shadow: 1px 1px 2px 1px black;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.file:hover {
+
+    box-shadow: 1px 1px 2px 1px black;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+}
+
+.dirctfolder img {
+    height: 20px;
+    width: 30px;
+    position: relative;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.dirctfolder input {
+    height: 60%;
+    width: 40%;
+    align-self: center;
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+#dir2tab{
+    height: 90px;
+    overflow-y: auto;
+    
+}
+#dir1tab{
+    height: 90px;
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#searchBar{
+background-image: url("../icons/SVGs/search.svg");
+background-size: 20px 20px;
+background-repeat: no-repeat;
+background-position: calc(100% - 10px) 10px;
+
+}
+.listdir{
+width: 94%;
+height: 25px;
+padding:0px 5px 0px 5px;
+margin-top:5px ;
+border-bottom: 1px solid rgba(var(--tab-color-red),var(--tab-color-green),var(--tab-color-blue),var(--tab-opacity));
+color: black;
+}
+.filespecstab{
+width: fit-content;
+height: 100%;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-content: center;
+align-items: center;
+}
+#accountButton{
+ width: 5%;
+ height: 90%;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ align-content: center;
+ justify-content: center;
+ align-items: center;
+}
+
+#homeButton{
+    width: 5%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#refreshButton{
+    width: 5%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

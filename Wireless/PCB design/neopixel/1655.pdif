@@ -1,0 +1,168 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "1655"
+      (family "DIO")
+      (package "LED_1655")
+      (description "Ws2812b_5050_Rgb_Led_With_Integrated_Driver_Chip_Pack_Of_10")
+      (attribute "PKG_TYPE" "LED_1655")
+      (attribute "MF" "Adafruit_Industries")
+      (attribute "MAXIMUM_PACKAGE_HEIGHT" "1.6_mm")
+      (attribute "PACKAGE" "TSOP-38238_Adafruit_Industries")
+      (attribute "PRICE" "None")
+      (attribute "CHECK_PRICES" "https://www.snapeda.com/parts/1655/Adafruit+Industries+LLC/view-part/?ref=eda")
+      (attribute "STANDARD" "Manufacturer_recommendations")
+      (attribute "PARTREV" "01")
+      (attribute "SNAPEDA_LINK" "https://www.snapeda.com/parts/1655/Adafruit+Industries+LLC/view-part/?ref=snap")
+      (attribute "MP" "1655")
+      (attribute "DESCRIPTION" "_Addressable_Lighting_Neopixel_10_LED_Discrete_Serial_(Shift_Register)_Red,_Green,_Blue_(RGB)_5.00mm_L_x_5.00mm_W_")
+      (attribute "AVAILABILITY" "In_Stock")
+      (attribute "MANUFACTURER" "Adafruit_Industries")
+      (gate
+        (swap 1)
+        (symbol "1655")
+        (pin "DIN" 2 (type IP))
+        (pin "DOUT" 4 (type OP))
+        (pin "VDD" 3 (type PP))
+        (pin "VSS" 1 (type PP))
+      )
+    )
+    (symbol "1655"
+      (units THOU)
+      (graphic
+        (stroke 1)
+        (path (pt -400 300) (pt 400 300) (pt 400 -300) (pt -400 -300) (pt -400 300) (closed))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -600.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 600.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 600.0 200.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 600.0 -200.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+    )
+    (symbol "PIN_R0_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 200.0 0.0))
+      )
+    )
+    (symbol "PIN_R180_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -200.0 0.0))
+      )
+    )
+    (package "LED_1655"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (path (pt -98.43 -98.43) (pt 98.43 -98.43))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 98.43 98.43) (pt -98.43 98.43))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -151.57 62.99) (pt -143.7 62.99))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -98.43 -30.96) (pt -98.43 30.96))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 98.43 -30.96) (pt 98.43 30.96))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 5.0)
+          (path (pt -98.43 -98.43) (pt 98.43 -98.43))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 98.43 -98.43) (pt 98.43 98.43))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 98.43 98.43) (pt -98.43 98.43))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -98.43 98.43) (pt -98.43 -98.43))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -151.57 62.99) (pt -143.7 62.99))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -135.83 108.27) (pt 135.83 108.27))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 135.83 108.27) (pt 135.83 -108.27))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 135.83 -108.27) (pt -135.83 -108.27))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -135.83 -108.27) (pt -135.83 108.27))
+        )
+      )
+      (leg 1 (pt -96.46 62.99) (padstack 1))
+      (leg 2 (pt -96.46 -62.99) (padstack 2))
+      (leg 3 (pt 96.46 -62.99) (padstack 3))
+      (leg 4 (pt 96.46 62.99) (padstack 4))
+      (padstack 1
+        (pad (layer TCOP) (rectf 39.37 59.06 0 0.0 0.00999999999999))
+        (pad (layer TRES) (rectf 39.37 59.06 0 0.0 0.00999999999999))
+        (pad (layer TPST) (rectf 39.37 59.06 0 0.0 0.00999999999999))
+      )
+      (padstack 2
+        (pad (layer TCOP) (rectf 39.37 59.06 0 0.0 0.00999999999999))
+        (pad (layer TRES) (rectf 39.37 59.06 0 0.0 0.00999999999999))
+        (pad (layer TPST) (rectf 39.37 59.06 0 0.0 0.00999999999999))
+      )
+      (padstack 3
+        (pad (layer TCOP) (rectf 39.37 59.06 0 0.0 0.00999999999999))
+        (pad (layer TRES) (rectf 39.37 59.06 0 0.0 0.00999999999999))
+        (pad (layer TPST) (rectf 39.37 59.06 0 0.0 0.00999999999999))
+      )
+      (padstack 4
+        (pad (layer TCOP) (rectf 39.37 59.06 0 0.0 0.00999999999999))
+        (pad (layer TRES) (rectf 39.37 59.06 0 0.0 0.00999999999999))
+        (pad (layer TPST) (rectf 39.37 59.06 0 0.0 0.00999999999999))
+      )
+      (model 1655.step
+        (euler 0 0 0)
+        (offset 0 0 0)
+      )
+    )
+  )
+)

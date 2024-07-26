@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="server/style/general.css">
+        <link rel="stylesheet" href="server/style/index.css">
+        <link rel="stylesheet" href="server/style/media.css">
+    </head>
+
+    <body>
+<div class="main">
+        <!-- **************************************upper container ************************ -->
+        <div class="tab container" id="top_cont">
+            <div class="row " id="dir1tab">
+
+                <div class="row dirctfolder circle " id="accountButton">
+                    <img src="server/icons/SVGs/user_male.svg" alt="user"  onclick="">
+                </div>
+
+                <div class="row dirctfolder circle" id="refreshButton">
+                    <img src="server/icons/SVGs/reload.svg" alt="refresh"  onclick="">
+                </div>
+
+                <div class="row dirctfolder circle" id="homeButton">
+                    <img src="server/icons/home/home-50.png" alt="home"  srcset="" onclick="redirectIndex();">
+                </div>
+
+                <div class=" row tab dirctfolder " id="maintab">
+
+                    <input type="text" class="inputbar" name="directory" id="dirBar" value="/" style="height: 35px; margin: 10px;"
+                        onchange="getToLocation()">
+
+                    <div class="col-sep"></div>
+
+                    <input type="text" name="directory" id="searchBar" class="inputbar"  placeholder="Search here..."  style="height: 35px; margin: 10px;"
+                    onchange="findLocation()">
+
+                </div>
+            </div>
+            <div class="row-sep"></div>
+            
+            <div class="tab dirctfolder row" id="dir2tab">
+                <p class="scndbar_component row">
+                    <img src="server/icons/SVGs/back.svg" alt="file" srcset="" onclick="command('back')">
+                    <span class="comptext">back</span>
+                </p>
+                <div class="col-sep"></div>
+                <p class="scndbar_component row">
+                    <img src="server/icons/download2/download2-25.png" alt="file" srcset="" onclick="command('download')">
+                    <span class="comptext">download</span>
+                </p>
+                <div class="col-sep"></div>
+                <p class="scndbar_component row">
+                    <img src="server/icons/upload2/upload2-25.png" alt="file" srcset="" onclick="command('upload')">
+                    <span class="comptext">upload</span>
+                </p>
+                <div class="col-sep"></div>
+                <p class="scndbar_component row">
+                    <img src="server/icons/forward/forward-25.png" alt="file" srcset="" onclick="command('forward')">
+                    <span class="comptext">forward</span>
+                </p>
+                <div class="col-sep"></div>
+                <p class="scndbar_component row">
+                    <img src="server/icons/plus/plus-25.png" alt="file" srcset="" onclick="command('add')">
+                    <span class="comptext">add</span>
+                </p>
+                <div class="col-sep"></div>
+                <p class="scndbar_component row">
+                    <img src="server/icons/minus/minus-25.png" alt="file" srcset="" onclick="command('remove')">
+                    <span class="comptext">remove</span>
+                </p>
+                <div class="col-sep"></div>
+                <p class="scndbar_component row">
+                    <img src="server/icons/info/info-25.png" alt="file" srcset="" onclick="command('info')">
+                    <span class="comptext">info</span>
+                </p>
+                <div class="col-sep"></div>
+                <p class="scndbar_component row">
+                    <img src="server/icons/settings2/settings2-25.png" alt="file" srcset="" onclick="command('settings')">
+                    <span class="comptext">settings</span>
+                </p>
+
+            </div>
+        </div>
+
+        <!-- ************************************** mid container ************************** -->
+        <div class="tab container" id="mid_cont">
+            <!-- <div class="tab col" id="midleftcont">
+                <div class="row listdir"></div>
+                <tr></tr>
+                <div class="row listdir"></div>
+                <tr></tr>
+                <div class="row listdir"></div>
+                <tr></tr>
+            </div>
+
+            <div class="col-sep"></div> -->
+
+            <div class="tab dirctfolder " id="midrightcont">
+                
+            </div>  
+
+        </div>
+        </div>
+
+        <!-- **************************************bottom container ************************** -->
+        <div class="tab container " id="bottom_cont">
+
+        </div>
+</div>
+    </body>
+<script src="server/general.js"></script>
+<script src="server/index.js"></script>
+
+</html>

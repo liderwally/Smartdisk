@@ -1,0 +1,388 @@
+WARNING (------): DXF version not recognised or not release 12-15.
+ASCII DXF release 15 is recommended
+WARNING (010890): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010892): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010894): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010896): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010898): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010900): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010902): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010904): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010906): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010908): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010910): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010912): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010914): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010916): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010918): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010920): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010922): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010924): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010926): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010928): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010930): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010932): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010934): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010936): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010938): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010940): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010942): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010944): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010946): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010948): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010950): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010952): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010954): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010956): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010958): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010960): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010962): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010964): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010966): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010968): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010970): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010972): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010974): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010976): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010978): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010980): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010982): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010984): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010986): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010988): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010990): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010992): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010994): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010996): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (010998): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011000): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011002): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011004): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011006): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011008): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011010): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011012): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011014): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011016): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011018): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011020): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011022): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011024): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011026): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011028): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011030): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011032): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011034): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011036): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011038): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011040): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011042): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011044): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011046): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011048): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011050): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011052): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011054): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011056): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011058): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011060): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011062): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011064): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011066): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011068): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011070): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011072): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011074): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011076): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011078): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011080): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011082): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011084): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011086): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011088): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011090): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011092): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011094): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011096): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011098): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011100): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011102): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011104): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011106): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011108): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011110): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011112): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011114): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011116): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011118): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011120): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011122): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011124): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011126): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011128): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011130): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011132): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011134): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011136): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011138): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011140): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011142): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011144): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011146): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011148): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011150): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011152): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011154): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011156): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011158): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011160): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011162): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011164): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011166): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011168): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011170): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011172): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011174): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011176): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011178): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011180): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011182): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011184): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011186): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011188): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011190): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011192): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011194): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011196): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011198): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011200): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011202): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011204): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011206): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011208): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011210): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011212): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011214): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011216): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011218): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011220): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011222): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011224): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011226): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011228): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011230): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011232): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011234): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011236): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011238): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011240): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011242): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011244): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011246): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011248): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011250): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011252): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011254): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011256): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011258): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011260): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011262): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011264): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011266): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011268): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011270): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011272): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011274): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011276): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011278): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011280): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011282): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011284): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011286): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011288): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011290): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011292): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011294): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011296): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011298): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011300): XRECORD object group 310 unknown/not supported - ignored.
+WARNING (011302): Possible end of OBJECTS section before end of an XRECORD.
+WARNING (004240): BLOCKS section group 70 unknown/not supported - ignored.
+WARNING (004282): LAYER object group 290 unknown/not supported - ignored.
+WARNING (004310): LAYER object group 1001 unknown/not supported - ignored.
+WARNING (004312): LAYER object group 1000 unknown/not supported - ignored.
+WARNING (004314): LAYER object group 1000 unknown/not supported - ignored.
+WARNING (004338): LAYER object group 1001 unknown/not supported - ignored.
+WARNING (004340): LAYER object group 1000 unknown/not supported - ignored.
+WARNING (004342): LAYER object group 1000 unknown/not supported - ignored.
+WARNING (004366): LAYER object group 1001 unknown/not supported - ignored.
+WARNING (004368): LAYER object group 1000 unknown/not supported - ignored.
+WARNING (004370): LAYER object group 1000 unknown/not supported - ignored.
+WARNING (006782): BLOCK object group 3 unknown/not supported - ignored.
+WARNING (006784): BLOCK object group 1 unknown/not supported - ignored.
+SYMBOL: layer="0", name="*MODEL_SPACE", org=(0,0), 0 entities.
+WARNING (006806): BLOCK object group 67 unknown/not supported - ignored.
+WARNING (006822): BLOCK object group 3 unknown/not supported - ignored.
+WARNING (006824): BLOCK object group 1 unknown/not supported - ignored.
+SYMBOL: layer="0", name="*PAPER_SPACE", org=(0,0), 0 entities.
+WARNING (006834): BLOCKS section group 67 unknown/not supported - ignored.
+WARNING (006862): BLOCK object group 3 unknown/not supported - ignored.
+WARNING (006864): BLOCK object group 1 unknown/not supported - ignored.
+SYMBOL: layer="0", name="*U0", org=(0,0), 0 entities.
+WARNING (006900): BLOCK object group 3 unknown/not supported - ignored.
+WARNING (006902): BLOCK object group 1 unknown/not supported - ignored.
+LINE entity, line 6904
+LINE: layer="0", p1=(-2540,0), p2=(2540,0)
+SYMBOL: layer="0", name="GENAXEH", org=(0,0), 1 entities.
+WARNING (006962): BLOCK object group 3 unknown/not supported - ignored.
+WARNING (006964): BLOCK object group 1 unknown/not supported - ignored.
+SYMBOL: layer="0", name="*U2", org=(0,0), 0 entities.
+WARNING (007000): BLOCK object group 3 unknown/not supported - ignored.
+WARNING (007002): BLOCK object group 1 unknown/not supported - ignored.
+SYMBOL: layer="0", name="*U3", org=(0,0), 0 entities.
+WARNING (007038): BLOCK object group 3 unknown/not supported - ignored.
+WARNING (007040): BLOCK object group 1 unknown/not supported - ignored.
+SYMBOL: layer="0", name="*U4", org=(0,0), 0 entities.
+WARNING (007076): BLOCK object group 3 unknown/not supported - ignored.
+WARNING (007078): BLOCK object group 1 unknown/not supported - ignored.
+SYMBOL: layer="0", name="*U5", org=(0,0), 0 entities.
+WARNING (007114): BLOCK object group 3 unknown/not supported - ignored.
+WARNING (007116): BLOCK object group 1 unknown/not supported - ignored.
+SYMBOL: layer="0", name="*U6", org=(0,0), 0 entities.
+POLYLINE entity, line 7136
+WARNING (007166): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (007186): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (007206): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (007226): VERTEX entity group 8 unknown/not supported - ignored.
+POLYLINE: layer="PCB", flags=0x01, #pts=5, 0=(0,88900), 1=(60960,88900), 2=(60960,0), 3=(0,0), 4=(0,88900)
+WARNING (007240): ENTITIES section group 5 unknown/not supported - ignored.
+WARNING (007242): ENTITIES section group 330 unknown/not supported - ignored.
+WARNING (007244): ENTITIES section group 100 unknown/not supported - ignored.
+POLYLINE entity, line 7248
+WARNING (007276): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (007296): VERTEX entity group 8 unknown/not supported - ignored.
+POLYLINE: layer="TOP_TRACE", flags=0x00, #pts=2, 0=(7366,81978), 1=(27940,81978)
+WARNING (007312): ENTITIES section group 5 unknown/not supported - ignored.
+WARNING (007314): ENTITIES section group 330 unknown/not supported - ignored.
+WARNING (007316): ENTITIES section group 100 unknown/not supported - ignored.
+POLYLINE entity, line 7320
+WARNING (007348): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (007368): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (007390): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (007410): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (007432): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (007452): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (007474): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (007494): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (007516): VERTEX entity group 8 unknown/not supported - ignored.
+POLYLINE: layer="TOP_TRACE", flags=0x00, #pts=9, 0=(33020,81978), 1=(53594,81978), 2=(54039,81534), 3=(54039,7366), 4=(53594,6921), 5=(7366,6921), 6=(6921,7366), 7=(6922,81534), 8=(7366,81978)
+WARNING (007530): ENTITIES section group 5 unknown/not supported - ignored.
+WARNING (007532): ENTITIES section group 330 unknown/not supported - ignored.
+WARNING (007534): ENTITIES section group 100 unknown/not supported - ignored.
+POLYLINE entity, line 7538
+WARNING (007566): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (007586): VERTEX entity group 8 unknown/not supported - ignored.
+POLYLINE: layer="TOP_TRACE", flags=0x00, #pts=2, 0=(7366,84138), 1=(27940,84138)
+WARNING (007602): ENTITIES section group 5 unknown/not supported - ignored.
+WARNING (007604): ENTITIES section group 330 unknown/not supported - ignored.
+WARNING (007606): ENTITIES section group 100 unknown/not supported - ignored.
+POLYLINE entity, line 7610
+WARNING (007638): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (007658): VERTEX entity group 8 unknown/not supported - ignored.
+POLYLINE: layer="TOP_TRACE", flags=0x00, #pts=2, 0=(7366,86296), 1=(27940,86296)
+WARNING (007674): ENTITIES section group 5 unknown/not supported - ignored.
+WARNING (007676): ENTITIES section group 330 unknown/not supported - ignored.
+WARNING (007678): ENTITIES section group 100 unknown/not supported - ignored.
+POLYLINE entity, line 7682
+WARNING (007710): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (007730): VERTEX entity group 8 unknown/not supported - ignored.
+POLYLINE: layer="TOP_TRACE", flags=0x00, #pts=2, 0=(7366,88456), 1=(27940,88456)
+WARNING (007746): ENTITIES section group 5 unknown/not supported - ignored.
+WARNING (007748): ENTITIES section group 330 unknown/not supported - ignored.
+WARNING (007750): ENTITIES section group 100 unknown/not supported - ignored.
+POLYLINE entity, line 7754
+WARNING (007782): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (007802): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (007824): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (007844): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (007866): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (007886): VERTEX entity group 8 unknown/not supported - ignored.
+POLYLINE: layer="TOP_TRACE", flags=0x00, #pts=6, 0=(33020,84138), 1=(53594,84138), 2=(56198,81534), 3=(56198,7366), 4=(53594,4762), 5=(33020,4762)
+WARNING (007902): ENTITIES section group 5 unknown/not supported - ignored.
+WARNING (007904): ENTITIES section group 330 unknown/not supported - ignored.
+WARNING (007906): ENTITIES section group 100 unknown/not supported - ignored.
+POLYLINE entity, line 7910
+WARNING (007938): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (007958): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (007980): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (008000): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (008022): VERTEX entity group 8 unknown/not supported - ignored.
+POLYLINE: layer="TOP_TRACE", flags=0x00, #pts=5, 0=(27940,4762), 1=(7366,4762), 2=(4762,7366), 3=(4762,81534), 4=(7366,84138)
+WARNING (008036): ENTITIES section group 5 unknown/not supported - ignored.
+WARNING (008038): ENTITIES section group 330 unknown/not supported - ignored.
+WARNING (008040): ENTITIES section group 100 unknown/not supported - ignored.
+POLYLINE entity, line 8044
+WARNING (008072): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (008092): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (008114): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (008134): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (008156): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (008176): VERTEX entity group 8 unknown/not supported - ignored.
+POLYLINE: layer="TOP_TRACE", flags=0x00, #pts=6, 0=(33020,86296), 1=(53594,86296), 2=(58357,81534), 3=(58357,7366), 4=(53594,2604), 5=(33020,2604)
+WARNING (008192): ENTITIES section group 5 unknown/not supported - ignored.
+WARNING (008194): ENTITIES section group 330 unknown/not supported - ignored.
+WARNING (008196): ENTITIES section group 100 unknown/not supported - ignored.
+POLYLINE entity, line 8200
+WARNING (008228): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (008248): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (008270): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (008290): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (008312): VERTEX entity group 8 unknown/not supported - ignored.
+POLYLINE: layer="TOP_TRACE", flags=0x00, #pts=5, 0=(27940,2604), 1=(7366,2603), 2=(2603,7366), 3=(2603,81534), 4=(7366,86296)
+WARNING (008326): ENTITIES section group 5 unknown/not supported - ignored.
+WARNING (008328): ENTITIES section group 330 unknown/not supported - ignored.
+WARNING (008330): ENTITIES section group 100 unknown/not supported - ignored.
+POLYLINE entity, line 8334
+WARNING (008362): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (008382): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (008404): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (008424): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (008446): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (008466): VERTEX entity group 8 unknown/not supported - ignored.
+POLYLINE: layer="TOP_TRACE", flags=0x00, #pts=6, 0=(33020,88456), 1=(53594,88456), 2=(60516,81534), 3=(60516,7366), 4=(53594,444), 5=(33020,444)
+WARNING (008482): ENTITIES section group 5 unknown/not supported - ignored.
+WARNING (008484): ENTITIES section group 330 unknown/not supported - ignored.
+WARNING (008486): ENTITIES section group 100 unknown/not supported - ignored.
+POLYLINE entity, line 8490
+WARNING (008518): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (008538): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (008560): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (008580): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (008602): VERTEX entity group 8 unknown/not supported - ignored.
+POLYLINE: layer="TOP_TRACE", flags=0x00, #pts=5, 0=(27940,444), 1=(7366,444), 2=(444,7366), 3=(444,81534), 4=(7366,88456)
+WARNING (008616): ENTITIES section group 5 unknown/not supported - ignored.
+WARNING (008618): ENTITIES section group 330 unknown/not supported - ignored.
+WARNING (008620): ENTITIES section group 100 unknown/not supported - ignored.
+POLYLINE entity, line 8624
+WARNING (008652): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (008672): VERTEX entity group 8 unknown/not supported - ignored.
+POLYLINE: layer="TOP_TRACE", flags=0x00, #pts=2, 0=(27940,86296), 1=(33020,88456)
+WARNING (008686): ENTITIES section group 5 unknown/not supported - ignored.
+WARNING (008688): ENTITIES section group 330 unknown/not supported - ignored.
+WARNING (008690): ENTITIES section group 100 unknown/not supported - ignored.
+POLYLINE entity, line 8694
+WARNING (008722): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (008742): VERTEX entity group 8 unknown/not supported - ignored.
+POLYLINE: layer="TOP_TRACE", flags=0x00, #pts=2, 0=(27940,81978), 1=(33020,84138)
+WARNING (008756): ENTITIES section group 5 unknown/not supported - ignored.
+WARNING (008758): ENTITIES section group 330 unknown/not supported - ignored.
+WARNING (008760): ENTITIES section group 100 unknown/not supported - ignored.
+POLYLINE entity, line 8764
+WARNING (008792): VERTEX entity group 8 unknown/not supported - ignored.
+WARNING (008812): VERTEX entity group 8 unknown/not supported - ignored.
+POLYLINE: layer="TOP_TRACE", flags=0x00, #pts=2, 0=(27940,4762), 1=(33020,2604)
+WARNING (008826): ENTITIES section group 5 unknown/not supported - ignored.
+WARNING (008828): ENTITIES section group 330 unknown/not supported - ignored.
+WARNING (008830): ENTITIES section group 100 unknown/not supported - ignored.
+POLYLINE entity, line 8834
+WARNING (008862): VERT
